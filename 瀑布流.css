@@ -1,0 +1,32 @@
+/*All Tag*/
+*{margin: 0;padding:0;}
+body{background: #dddddd;}
+img{border: none;height:200px;width:200px;}
+/*div{display:inline;}*/
+a{text-decoration:none;color: #444;}
+a:hover{color:#999}
+h1{font-size: 18px; text-align: center;}
+/*wrap*/
+#wrap{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    line-height: 15px;
+}
+#wrap>div{float:left;
+    box-sizing:border-box;
+    width: 280px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+}
+#wrap>div>img{width: 100%}
+#wrap>div>a{display: block;
+    font-size:18px;
+    font-weight:bold;
+    line-height:40px;
+    text-align:center;
+}
